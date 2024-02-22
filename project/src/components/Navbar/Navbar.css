@@ -1,0 +1,34 @@
+/* Navbar.css */
+.main-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(22,34,57,0.95);
+  }
+  
+  .navbar-brand img {
+    height: 40px; /* Adjust logo height as needed */
+  }
+  .navbar-toggler {
+    border-color: black;
+    border-width: 2px;
+}
+.navbar-toggler:hover {
+  border-color: black;
+  border-width: 3px;
+}
+.navbar-toggler.clicked {
+ background-color: none;
+}
+
+  .nav-link{
+      color:white;
+  }
+  @media (max-width: 767px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+  }
+  

@@ -6,8 +6,13 @@
     left: 0;
     z-index: 1000;
     background-color: rgba(22,34,57,0.95);
+    padding-left: 5px;
+    padding-right: 50px;
   }
-  
+  .navbar-nav{
+    width: 50%;
+    justify-content:space-between;
+  }
   .navbar-brand img {
     height: 40px; /* Adjust logo height as needed */
   }

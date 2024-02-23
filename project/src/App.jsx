@@ -6,6 +6,8 @@ import WhyIEEE from "./components/WhyIEEE/WhyIEEE";
 import About from "./components/About/About";
 import Count from "./components/Count/Count";
 import Gallery from "./components/Gallery/Gallery";
+import ContactUs from "./components/ContactUs/ContactUs";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <About />
       <Count />
       <Gallery />
+      <ContactUs/>
+      <Footer/>
     </>
   );
 }

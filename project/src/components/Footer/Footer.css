@@ -1,0 +1,55 @@
+/* Footer.css */
+
+footer {
+    background-color: #172238;
+    color: #fff;
+}
+
+.btn-floating {
+    color: #fff;
+}
+
+.btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #172238;
+}
+
+.form-outline {
+    position: relative;
+}
+
+.form-outline input.form-control {
+    color: #fff;
+}
+
+.form-outline label {
+    color: #fff;
+}
+
+.form-outline input.form-control::placeholder {
+    color: #fff;
+}
+
+.form-outline input.form-control:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.form-outline input[type="email"]::placeholder {
+    color: #fff;
+}
+
+.form-outline input[type="email"]:focus::placeholder {
+    color: #fff;
+}
+
+.pt-2 {
+    color: #fff;
+}
+
+/* Additional styling can be added as needed */

@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="container p-4">
-        <section className="mb-4">
+        <section className="mb-4 mt-4 text-center">
           <a
             className="btn btn-outline-light btn-floating m-1"
             href="https://www.facebook.com/ieeemace/"
@@ -55,7 +55,7 @@ const Footer = () => {
             <div className="row d-flex justify-content-center">
               <div className="col-auto">
                 <p className="pt-2">
-                  <strong>Join IEEE Now</strong>
+                  <strong>JOIN IEEE NOW</strong>
                 </p>
               </div>
               <div className="col-md-5 col-12">
@@ -71,10 +71,11 @@ const Footer = () => {
                     type="email"
                     id="form5Example2"
                     className="form-control"
+                    placeholder="Your Email"
                   />
-                  <label className="form-label" htmlFor="form5Example2">
+                  {/* <label className="form-label" htmlFor="form5Example2">
                     Email address
-                  </label>
+                  </label> */}
                 </div>
               </div>
               <div className="col-auto">
@@ -86,14 +87,15 @@ const Footer = () => {
           </form>
         </section>
       </div>
-      <div className="container">
+      <div className="container text-center mt-4">
         <div className="row">
           <div className="col-md-12">
             <p>
               <FaRegCopyright />
-              &#160;Copyright{" "}
-              <script>document.write(new Date().getFullYear())</script>{" "}
-              <a href="#">IEEE MACE</a> All Rights Reserved
+              &#160;COPYRIGHT{" "}
+              <FaRegCopyright />
+              {/* <script>document.write(new Date().getFullYear())</script>*/}
+              {" "}2024<a href="#" className="ieee-footer"> IEEE MACE</a> ALL RIGHTS RESERVED
             </p>
           </div>
         </div>

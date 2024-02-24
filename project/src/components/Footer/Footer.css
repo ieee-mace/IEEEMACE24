@@ -3,7 +3,14 @@
 footer {
     background-color: #172238;
     color: #fff;
+    flex-direction: column;
+    align-items: center;
 }
+.social-icons {
+    display: flex;
+    justify-content: center; /* Align children horizontally at the center */
+    align-items: center; /* Align children vertically at the center */
+  }
 
 .btn-floating {
     color: #fff;
@@ -37,7 +44,7 @@ footer {
 
 .form-outline input.form-control:focus {
     border-color: #fff;
-    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 0 0.35rem rgba(32, 108, 138, 0.25);
 }
 
 .form-outline input[type="email"]::placeholder {
@@ -51,5 +58,6 @@ footer {
 .pt-2 {
     color: #fff;
 }
-
-/* Additional styling can be added as needed */
+.ieee-footer{
+    color: #f5a425;
+}

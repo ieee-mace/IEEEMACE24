@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Chapters.css";
 
 export default function Chapters() {
+  const chaptersRef = useRef(null);
+
+  const scroll = (scrollOffset) => {
+    chaptersRef.current.scrollLeft += scrollOffset;
+  };
+
   const chapters = [
     {
       imagePath: "assets/images/chapters/cs.jpg",
@@ -73,7 +79,7 @@ export default function Chapters() {
       <div className="section-heading">
         <h2>Chapters</h2>
       </div>
-      <div className="chapters">
+      <div className="chapters" ref={chaptersRef}>
         {chapters.map((chapter, index) => (
           <div className="chapters-cards" key={index}>
             <div className="chapters-cards-img">
@@ -93,6 +99,10 @@ export default function Chapters() {
             </div>
           </div>
         ))}
+      </div>
+      <div className="navigation-buttons">
+        <button onClick={() => scroll(-300)}>Prev</button>
+        <button onClick={() => scroll(+300)}>Next</button>
       </div>
     </section>
   );

@@ -77,7 +77,7 @@ const ContactUs = () => {
                 name="botcheck"
                 style={{ display: "none" }}
               /> */}
-              <div className="orange-container">
+              <div className="form-container">
                 <div className="row">
                   <div className="col-md-6">
                     <fieldset>

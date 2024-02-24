@@ -28,25 +28,52 @@
     border: 2px solid rgba(250, 250, 250, 0.1);
 }
 
-.orange-container {
-    border: 2px solid #f5a425; /* Orange border */
+.form-container {
+    position: relative;
     border-radius: 5px;
-    padding: 20px;
+    padding: 60px;
+    background-color:  rgba(250,250,250,0.1);
+    margin: 0 auto;
+}
+
+.form-container::before {
+    content: ''; /* Create a pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit; /* Inherit the background color */
+    border-radius: inherit; /* Inherit the border radius */
+    /* backdrop-filter: blur(10px); Apply blur effect to the pseudo-element */
 }
 
 .orange-button {
-    background-color: #f5a425; /* Orange background */
+    background-color: #f5a425;
     color: #fff;
-    width: 40%;
+    width: 100%; /* Ensure the button takes full width */
+    max-width: 200px; /* Limit the maximum width of the button */
     margin-top: 20px;
-    border-radius: 20px;
+    padding: 6px;
+    border-radius: 5px;
     border-color: transparent;
+    display: inline-block; /* Ensure button stays in a single line */
+    text-align: center; /* Center-align text within the button */
+    white-space: nowrap; /* Prevent text wrapping */
 }
 
 .orange-button:hover {
-    background-color: #e0931e; /* Darker shade of orange on hover */
+    background-color: #e0931e;
 }
-
+.form-container .col-md-6 input {
+    margin-bottom: 20px;
+    background-color: rgba(250,250,250,0.1);
+}
+.form-container .col-md-12 textarea{
+    background-color: rgba(250,250,250,0.1);
+}
+.form-container input::placeholder{color: #fff;}
+.form-container textarea::placeholder{color: #fff;}
 .contact {
     background-image: url(/assets/images/contact-bg.jpg);
     background-repeat: no-repeat;

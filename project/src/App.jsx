@@ -8,6 +8,7 @@ import Count from "./components/Count/Count";
 import Gallery from "./components/Gallery/Gallery";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
+import Chapters from "./components/Chapters/Chapters";
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
       <About />
       <Count />
       <Gallery />
-      <ContactUs/>
-      <Footer/>
+      <Chapters />
+      <ContactUs />
+      <Footer />
     </>
   );
 }

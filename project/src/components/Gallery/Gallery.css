@@ -1,6 +1,6 @@
 .gallery{
     width: 100dvw;
-    height: max-content;
+    height: 150dvh;
     display: grid;
     grid-template-rows: 10% 90%;
     background-image: url("assets/images/video-bg.jpg");
@@ -58,4 +58,28 @@
     text-align: center;
     font-style: italic;
     color: #fff;
+}
+
+
+
+@media screen and (min-width: 1296px) {
+    .gallery{
+        height: 100dvh;
+    }
+}
+@media screen and (max-width: 1031px) {
+    .gallery{
+        height: 200dvh;
+    }
+}
+@media screen and (max-width: 770px) {
+    .gallery{
+        height: 290dvh;
+    }
+}
+@media screen and (max-width: 500px) {
+    .gallery{
+        grid-template-rows: 2% 98%;
+        height: fit-content;
+    }
 }

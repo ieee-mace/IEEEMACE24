@@ -12,6 +12,10 @@ export default function Gallery() {
       paragraph: '"PELS Day"',
     },
     {
+      imagePath: "assets/images/gallery/g5.jpg",
+      paragraph: '"Subcommittee Training"',
+    },
+    {
       imagePath: "assets/images/gallery/g3.jpg",
       paragraph: '"PES Day"',
     },
@@ -20,15 +24,7 @@ export default function Gallery() {
       paragraph: '"Subcommittee Training"',
     },
     {
-      imagePath: "assets/images/gallery/g5.jpg",
-      paragraph: '"Subcommittee Training"',
-    },
-    {
       imagePath: "assets/images/gallery/g6.jpg",
-      paragraph: '"Arduino Day"',
-    },
-    {
-      imagePath: "assets/images/gallery/g7.jpg",
       paragraph: '"Arduino Day"',
     },
     {
@@ -38,6 +34,10 @@ export default function Gallery() {
     {
       imagePath: "assets/images/gallery/g9.JPG",
       paragraph: '"SPS Day"',
+    },
+    {
+      imagePath: "assets/images/gallery/g7.jpg",
+      paragraph: '"Arduino Day"',
     },
     {
       imagePath: "assets/images/gallery/g10.jpg",

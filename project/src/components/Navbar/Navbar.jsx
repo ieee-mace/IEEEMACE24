@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   return (
@@ -20,7 +21,9 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon">
+            <GiHamburgerMenu />
+          </span>
         </button>
         <div
           className="collapse navbar-collapse justify-content-end"

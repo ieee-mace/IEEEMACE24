@@ -14,7 +14,7 @@ export default function Features() {
             &#160; What is IEEE ?
           </h4>
         </div>
-        <p>
+        <p className="feature-card-content">
           <b>IEEE</b> is a global association and organization of professionals
           working toward the development, implementation and maintenance of
           technology-centered products and services.
@@ -27,7 +27,7 @@ export default function Features() {
             &#160; Mission
           </h4>
         </div>
-        <p>
+        <p className="feature-card-content">
           IEEE will be essential to the global technical community and to
           technical professionals everywhere, and be universally recognized for
           the contributions of technology and of technical professionals in
@@ -41,7 +41,7 @@ export default function Features() {
             &#160; Vision
           </h4>
         </div>
-        <p>
+        <p className="feature-card-content">
           IEEE’s core purpose is to foster technological innovation and
           excellence for the benefit of humanity.
         </p>

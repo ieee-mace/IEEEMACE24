@@ -49,6 +49,7 @@
   overflow-y: hidden;
   display: flex;
   gap: 20px;
+  scroll-behavior: smooth;
 }
 
 .chapters-cards {
@@ -117,7 +118,7 @@
 .navigation-buttons {
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: -50px;
   z-index: 10;
 }
 
@@ -127,11 +128,19 @@
   border-color: #e0931e;
   border-width: 2px;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
 
 .navigation-buttons button:hover {
   background-color: #f5a425;
   border-color: transparent;
+}
+
+
+@media screen and (max-width: 768px) {
+  .navigation-buttons{
+    display: none;
+  }
 }

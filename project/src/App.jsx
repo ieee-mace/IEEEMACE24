@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import WhyIEEE from "./components/WhyIEEE/WhyIEEE";
 import About from "./components/About/About";
 import Count from "./components/Count/Count";
+import ExeCom from "./components/ExeCom/ExeCom";
 import Gallery from "./components/Gallery/Gallery";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
@@ -18,6 +19,7 @@ function App() {
       <WhyIEEE />
       <About />
       <Count />
+      <ExeCom/>
       <Gallery />
       <Chapters />
       <ContactUs />

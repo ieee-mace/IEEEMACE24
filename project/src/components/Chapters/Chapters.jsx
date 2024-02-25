@@ -51,13 +51,13 @@ export default function Chapters() {
       chapterLogo: "assets/images/logos/pes.png",
       chapterLink: "https://ieee-pes.org/",
     },
-    {
-      imagePath: "assets/images/chapters/iepels.jpg",
-      chapterName: "IE/PELS",
-      chapterFullName: "IEEE IE/PELS Jt. Chapter",
-      chapterLogo: "assets/images/logos/iepels.png",
-      chapterLink: "https://www.ieee-ies.org/",
-    },
+    // {
+    //   imagePath: "assets/images/chapters/iepels.jpg",
+    //   chapterName: "IE/PELS",
+    //   chapterFullName: "IEEE IE/PELS Jt. Chapter",
+    //   chapterLogo: "assets/images/logos/iepels.png",
+    //   chapterLink: "https://www.ieee-ies.org/",
+    // },
     {
       imagePath: "assets/images/chapters/wie.jpg",
       chapterName: "WIE",
@@ -99,10 +99,42 @@ export default function Chapters() {
             </div>
           </div>
         ))}
+        <div className="chapters-cards">
+          <div className="chapters-cards-img">
+            <img src="assets/images/chapters/iepels.jpg" alt="IE/PELS" />
+          </div>
+          <div className="chapters-cards-name">
+            <div className="chapters-cards-heading">
+              <h4>IE/PELS</h4>
+            </div>
+            <div className="chapters-cards-full-heading">
+              <p>IEEE IE/PELS Jt. Chapter</p>
+            </div>
+          </div>
+          <div className="chapters-cards-logo-link">
+            <div className="chapters-cards-logo">
+              <img src="assets/images/logos/iepels.png" alt="IE/PELS" />
+            </div>
+            <div className="chapters-cards-link">
+              <a
+                href="https://www.ieee-ies.org/"
+                style={{ height: "50%", alignItems: "end" }}
+              >
+                IEEE IES&#8811;
+              </a>
+              <a
+                href="https://www.ieee-pels.org/"
+                style={{ height: "50%", alignItems: "start" }}
+              >
+                IEEE PELS&#8811;
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="navigation-buttons">
-        <button onClick={() => scroll(-300)}>Prev</button>
-        <button onClick={() => scroll(+300)}>Next</button>
+        <button onClick={() => scroll(-600)}>Prev</button>
+        <button onClick={() => scroll(+600)}>Next</button>
       </div>
     </section>
   );

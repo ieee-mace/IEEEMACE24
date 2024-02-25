@@ -44,7 +44,13 @@
         bottom: 0px;
         grid-template-rows: 100% 0;
     }
+    .feature-card-content{
+        display: none;
+    }
     .feature-card:hover{
         grid-template-rows: 20% 80%;
+    }
+    .feature-card:hover .feature-card-content{
+        display: block;
     }
 }

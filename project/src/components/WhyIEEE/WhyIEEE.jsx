@@ -9,7 +9,7 @@ const WhyIEEE = () => {
   };
 
   return (
-    <section className="why-us" data-section="section2">
+    <section className="why-us" id="why-us" data-section="section2">
       <div className="container">
         <div className="section-title">
           <div className="section-box">
@@ -22,7 +22,7 @@ const WhyIEEE = () => {
               <ul>
                 <li>
                   <a
-                    href="#tabs-1"
+                    href="#why-us"
                     className={activeTab === "tabs-1" ? "active" : ""}
                     onClick={() => handleTabClick("tabs-1")}
                   >
@@ -31,7 +31,7 @@ const WhyIEEE = () => {
                 </li>
                 <li>
                   <a
-                    href="#tabs-2"
+                    href="#why-us"
                     className={activeTab === "tabs-2" ? "active" : ""}
                     onClick={() => handleTabClick("tabs-2")}
                   >
@@ -40,7 +40,7 @@ const WhyIEEE = () => {
                 </li>
                 <li>
                   <a
-                    href="#tabs-3"
+                    href="#why-us"
                     className={activeTab === "tabs-3" ? "active" : ""}
                     onClick={() => handleTabClick("tabs-3")}
                   >
